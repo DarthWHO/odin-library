@@ -14,8 +14,8 @@ function addBookToLibrary(title, author, pages=100, isRead=false) {
   myLibrary.push(new Book(title, author, pages, isRead));
 }
 
-addBookToLibrary("test", "test", 302, true)
-addBookToLibrary("test2", "test2", 400, false);
+addBookToLibrary("The Lord of the Rings: The Fellowship of the Ring", "J. R. Tokien", 702, true)
+addBookToLibrary("Hitchhiker's Guide to the Galaxy", "Douglas Adams", 400, false);
 
 console.log(myLibrary)
 
